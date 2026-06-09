@@ -1,0 +1,23 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "gateway_core.c"
+        "wifi_manager.c"
+        "gateway_id.c"
+        "ble_smartreef.c"
+        "cloud_client.c"
+        "serial_console.c"
+        "status_codec.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        bt
+        console
+        esp_http_client
+        esp_driver_uart
+        esp_netif
+        esp_wifi
+        espressif__cjson
+        mbedtls
+        nvs_flash
+)

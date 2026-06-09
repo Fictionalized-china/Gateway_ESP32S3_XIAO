@@ -1,0 +1,75 @@
+menu "SmartReef Gateway"
+
+    config GATEWAY_WIFI_SSID
+        string "WiFi SSID"
+        default ""
+        help
+            WiFi SSID used by this gateway. Configure with idf.py menuconfig.
+
+    config GATEWAY_WIFI_PASSWORD
+        string "WiFi password"
+        default ""
+        help
+            WiFi password used by this gateway. This value is local and should not be committed in sdkconfig.
+
+    config GATEWAY_LOG_WIFI_PASSWORD
+        bool "Print WiFi password in serial logs"
+        default n
+        help
+            Debug only. When enabled, the gateway prints the configured WiFi password in plaintext.
+            Keep disabled for normal use because serial logs may be copied or shared.
+
+    config GATEWAY_CLOUD_BASE_URL
+        string "Cloud API base URL"
+        default "https://api.tap041120.online"
+        help
+            Base URL for gateway cloud APIs.
+
+    config GATEWAY_KEY
+        string "Gateway API key"
+        default "tap041120-gateway-demo-key"
+        help
+            Value sent in X-Gateway-Key.
+
+    config GATEWAY_UPLOAD_INTERVAL_MS
+        int "Status upload interval in milliseconds"
+        default 3000
+        range 1000 60000
+        help
+            Periodic status upload interval.
+
+    config GATEWAY_CMD_POLL_INTERVAL_MS
+        int "Command poll interval in milliseconds"
+        default 1000
+        range 500 60000
+        help
+            Periodic cloud command polling interval.
+
+    config GATEWAY_HTTP_TIMEOUT_MS
+        int "HTTP request timeout in milliseconds"
+        default 8000
+        range 1000 30000
+        help
+            Timeout for cloud HTTP requests.
+
+    config GATEWAY_BLE_SCAN_PREFIX
+        string "BLE scan name prefix"
+        default "SmartReef-"
+        help
+            BLE advertised name prefix for SmartReefTank controllers.
+
+    config GATEWAY_COMMAND_TIMEOUT_MS
+        int "BLE command observation timeout in milliseconds"
+        default 5000
+        range 500 30000
+        help
+            Time window used for logging post-command status notifications.
+
+    config GATEWAY_MAX_DEVICES
+        int "Maximum tracked devices"
+        default 4
+        range 1 8
+        help
+            Device table capacity. Stage 1 connects one device but keeps a small table for future expansion.
+
+endmenu

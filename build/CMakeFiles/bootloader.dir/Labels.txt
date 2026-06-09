@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/CMakeFiles/bootloader
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/CMakeFiles/bootloader.rule
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/CMakeFiles/bootloader-complete.rule
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

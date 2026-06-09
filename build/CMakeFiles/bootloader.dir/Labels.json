@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

@@ -1,0 +1,5 @@
+"-specs=D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/build/bootloader/specs/picolibc.specs"
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero

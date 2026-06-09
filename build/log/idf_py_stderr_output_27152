@@ -1,0 +1,10 @@
+Command: cmake -G Ninja -B D:\HUTAO\Project\2026\ESP\Gateway_ESP32S3_XIAO\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=D:\HUTAO\APP\Setup\ESP-IDF\ESP-IDF4.4.4\Espressif\python_env\idf6.0_py3.13_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=True D:\HUTAO\Project\2026\ESP\Gateway_ESP32S3_XIAO
+Loading defaults file D:/HUTAO/Project/2026/ESP/Gateway_ESP32S3_XIAO/sdkconfig.defaults...
+Configuration Report               
++---------------------------------+
+|  Parser Version: 1              |
+|  Verbosity: default             |
+|  Defaults policy: sdkconfig     |
+|  Status: Finished successfully  |
+|                                 |
++---------------------------------+
